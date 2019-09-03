@@ -1,0 +1,22 @@
+{
+  "name": "simplehttp",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.9.1",
+    "npm": "6.4.x"
+  },
+  "description": "Simple HTTP assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Matthew Anniballi",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
